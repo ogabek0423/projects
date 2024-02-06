@@ -21,10 +21,9 @@ def binary_search(arr, target):
     return None
 
 l = [100, 1, 2, 5, 7, 9, 0, 3, 4, 6, 7, 12, 15, 98, 65, 23, 27, 99]
-
-tar = 27
-
-l.sort()
 print(l)
-res = binary_search(l, tar)
-print("natija:", res)
+tar = 100
+
+print(l[3])
+# res = binary_search(l, tar)
+# print("natija:", res, len(l))
